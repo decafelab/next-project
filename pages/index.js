@@ -51,7 +51,7 @@ export default function Home() {
 
       <div class="absolute inset-x-0 bottom-12 lg:bottom-20 text-center text-white text-2xl md:text-3xl lg:text-6xl uppercase">
         <h1 class="font-extralight">Creative Solutions</h1>
-        <h1 class="font-semibold">For you</h1>
+        <h1 class="font-semibold">For everyone</h1>
       </div>
      </div>
      
