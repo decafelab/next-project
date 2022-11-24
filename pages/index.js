@@ -63,7 +63,7 @@ with a disruptive business model.</p>
 we, however, analyses your industry fields,
 and find someone passionate in our team
 to run your projects.</p>
-<p>Bikin Gemes cabang Singapur</p>
+<p>Bikin Gemes cabang Singapore</p>
 
 <p class="mt-8">We believe in the joy of works
 created by our enthusiast creatives. All these create
