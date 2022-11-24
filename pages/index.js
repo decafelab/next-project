@@ -63,6 +63,7 @@ with a disruptive business model.</p>
 we, however, analyses your industry fields,
 and find someone passionate in our team
 to run your projects.</p>
+<p>Bikin Gemes cabang Singapur</p>
 
 <p class="mt-8">We believe in the joy of works
 created by our enthusiast creatives. All these create
@@ -79,11 +80,6 @@ an enthusiastic persona of each creative works done.
 
 <div id="Clients"><Client></Client></div>
 
-
-
-
-
-        
 
       <footer id="Contact" class="flex bg-black mx-auto py-20">
         <div class="mx-auto grid sm:grid-cols-3 gap-8">
