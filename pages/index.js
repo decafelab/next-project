@@ -17,7 +17,7 @@ export default function Home() {
      <div class="w-full h-screen bg-[url('/images/hero-bg.jpg')] bg-cover bg-center">
      <header>
      <nav class="px-4 lg:px-6 py-6">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-lg">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-lg lg:px-2">
             <Link href="/" class="flex items-center">
                 <Image src="/images/logo.png" class="mr-3 sm:h-12" alt="Logo" width={200} height={184}/>
             </Link>
@@ -82,7 +82,7 @@ an enthusiastic persona of each creative works done.
 
 
       <footer id="Contact" class="flex bg-black mx-auto py-20">
-        <div class="mx-auto grid sm:grid-cols-3 gap-8">
+        <div class="mx-auto grid sm:grid-cols-3 gap-8 2xl:gap-10 2xl:max-w-screen-2xl">
           <div class="flex flex-col-reverse px-4"><Image src="/images/footer-logo.png" width={277} height={332} /></div>
           <div class="flex flex-col justify-between text-center">
             <div>
@@ -92,7 +92,7 @@ an enthusiastic persona of each creative works done.
               <p class="text-white">Jobs</p>
               <p class="text-gray-400 mb-8">Sheilla@bikingemes.com</p>
             </div>
-            <h3 class="sm:text-2xl lg:text-5xl text-white font-bold uppercase">BG Agency</h3>
+            <h3 class="text-2xl lg:text-5xl text-white font-bold uppercase">BG Agency</h3>
           </div>
           <div class="flex items-end justify-center sm:justify-end px-4">
             <Link class="mr-4" href="#"><Image src="/images/wa.png" width={50} height={50} /></Link>
