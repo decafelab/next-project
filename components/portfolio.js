@@ -10,7 +10,7 @@ export function Portfolio() {
 
 <div class="flex items-end w-full h-screen bg-[url('/images/portfolio/carsome.jpg')] bg-cover bg-center">
 <div class="w-10/12 lg:w-8/12 py-8 lg:py-16 lg:px-12 mx-auto text-white">
-        <h2 class="text-4xl font-semibold uppercase mb-2">Carsome</h2>
+        <a href="/carsome"><h2 class="text-4xl font-semibold uppercase mb-2 hover:text-black">Carsome</h2></a>
         <p>Catchy jingle for multi-media applications,<br/>
 including radio, spotify ads, and digital videos.</p>
 </div>
