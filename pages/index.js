@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-        <nav class="px-4 lg:px-6 py-6 relative mb-[-96px]">
+        <nav class="px-4 lg:px-6 py-6 relative mb-[-96px] z-10">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-lg lg:px-2">
                 <Link href="/" class="flex items-center">
                     <Image src="/images/logo.png" class="mr-3 sm:h-12" alt="Logo" width={200} height={184}/>

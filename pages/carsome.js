@@ -12,7 +12,7 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <header>
-            <nav class="px-4 lg:px-6 py-6 relative mb-[-96px]">
+            <nav class="px-4 lg:px-6 py-6 relative mb-[-96px] z-10">
                 <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-lg lg:px-2">
                         <Link href="/" class="flex items-center">
                             <Image src="/images/logo.png" class="mr-3 sm:h-12" alt="Logo" width={200} height={184}/>
@@ -44,14 +44,16 @@ export default function Home() {
                 </div>
             </nav>
         </header>
+
+        {/* ======Hero Image====== */}
         {/* <div class="w-full h-[400px] lg:h-[600px] xl:h-[800px] bg-[url('/images/portfolio/carsome.jpg')] bg-cover bg-center"></div> */}
-        {/* <video class="h-full w-full object-cover" playsinline="" width="100%" height="100%" poster="./images/portfolio/carsome.jpg" preload="auto">
-            <source src="./images/portfolio/carsome/sindhubharata_20200911_212819_0.mp4" type="video/mp4"/>
-        </video> */}
-        <video class="w-full h-[400px] lg:h-[600px] xl:h-[800px] object-cover" preload="auto" width="100%" height="100%"
-            // poster="./images/portfolio/carsome.jpg"
-            src="./images/portfolio/carsome/sindhubharata_20200911_212819_0.mp4"/>
-     
+
+        {/* ======Hero Video====== */}
+        <video muted autoPlay loop playsInline class="w-full h-[400px] lg:h-[600px] xl:h-[800px] object-cover"
+            poster="./images/portfolio/carsome.jpg"
+            src="./images/portfolio/carsome/sindhubharata_20200911_212819_0.mp4">
+        </video>
+        
         <div class="py-16 px-4 text-center bg-[#f1f2f2] dark:bg-[#1a1a1a]">
             <div class="md:w-8/12 lg:w-6/12 xl:w-4/12 mx-auto">
                 <p class="uppercase font-bold text-4xl mb-4">Carsome</p>
